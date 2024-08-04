@@ -1,0 +1,31 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+
+var firebaseAuth = FirebaseAuth.instance;
+var firebaseFirestore = FirebaseFirestore.instance;
+var firebaseStorage = FirebaseStorage.instance;
+FirebaseMessaging firebaseMessaging = FirebaseMessaging.instance;
+var fcmServerKey =
+    'key=AAAAFPcTOnc:APA91bEbOCQaNK2z1F-1ms2uEyDuR7HUH4T-lch766G7Ftf_HMblEqM_OGKfmO7tqHLDlTK9HPe9LmOiJ4w52zXlkTpfPORyZ7YMItNFovMazoYMdqwwR1iirsCBTW7Iqy5u8eDTTU2x';
+var fcmUrl = 'https://fcm.googleapis.com/fcm/send';
+var productsCollection = 'products';
+var productVariantCollection = 'product_variants';
+var clickiesCollection = 'clickies';
+var usersCollection = 'users';
+var addressesCollection = 'addresses';
+var categoryCollection = 'category';
+var cartCollection = 'cart';
+var savedProductsCollection = 'saved_products';
+var savedClickyCollection = 'saved_clickies';
+var storeCollection = 'stores';
+var messagesCollection = 'chats';
+var chatUsersCollection = 'chat_users';
+var ordersCollection = 'orders';
+var ratingsCollection = 'ratings';
+var liveCollection = 'lives';
+var commentCollection = 'comments';
+var favSellerCollection = 'fav_sellers';
+var reportIssueCollection = 'report_seller';
+var reportClickyCollection = 'report_clicky';

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "315583696265",
+    "project_id": "pherico-4a1e4",
+    "storage_bucket": "pherico-4a1e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315583696265:android:c36e4b17c6ae3637902558",
+        "android_client_info": {
+          "package_name": "com.example.pherico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315583696265-5qkg68vjjmabb4t63vqggvnvlkggk68k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4HbT726Ehmb-n0pfLOZXLM67LFnGlgV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315583696265-5qkg68vjjmabb4t63vqggvnvlkggk68k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
